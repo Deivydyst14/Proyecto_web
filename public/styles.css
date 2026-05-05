@@ -44,7 +44,7 @@ body {
 
 /* HERO */
 .hero {
-  background-image: url("../assets/imagenes/hero-bg.jpg");
+  background-image: url("../public/assets/imagenes/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
