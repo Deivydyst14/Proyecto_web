@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHNet - Inicio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- ================== NAVBAR ================== -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/assets/imagenes/cargando.png" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#cotizacion">Cotización</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================== SECCIÓN INICIO ================== -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Internet de alta velocidad para tu hogar</h1>
+        <p class="hero-subtitle">Planes desde $50.000/mes</p>
+        <div class="hero-cta">
+          <a href="#cotizacion" class="cta-primary">Contratar Ahora</a>
+          <a href="#planes" class="cta-secondary">Ver Planes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== SECCIÓN PLANES ================== -->
+    <section id="planes" class="planes">
+      <div class="container">
+        <h2 class="section-title">Nuestros Planes</h2>
+        <div class="plans-grid" id="plans-grid-index">
+          <!-- Aquí se insertan los planes con JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== SECCIÓN COTIZACIÓN ================== -->
+    <section id="cotizacion" class="form-section">
+      <div class="container">
+        <h2 class="section-title">Solicitar Cotización</h2>
+        <form id="form-cotizacion-index" class="form-cotizacion">
+          <div class="form-group">
+            <label for="nombre-index">Nombre completo</label>
+            <input
+              type="text"
+              id="nombre-index"
+              name="nombre"
+              placeholder="Tu nombre completo"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="telefono-index">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono-index"
+              name="telefono"
+              placeholder="Tu número de teléfono"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email-index">Email</label>
+            <input
+              type="email"
+              id="email-index"
+              name="email"
+              placeholder="tu@email.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="direccion-index">Dirección de servicio</label>
+            <input
+              type="text"
+              id="direccion-index"
+              name="direccion"
+              placeholder="Dirección donde se instalará el servicio"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="plan-index">Plan de interés</label>
+            <select id="plan-index" name="plan" required>
+              <option value="">Selecciona un plan</option>
+              <option value="Básico">Básico - 20 Mbps - $50.000/mes</option>
+              <option value="Hogar">Hogar - 50 Mbps - $80.000/mes</option>
+              <option value="Pro">Pro - 100 Mbps - $120.000/mes</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje-index">Mensaje adicional (opcional)</label>
+            <textarea
+              id="mensaje-index"
+              name="mensaje"
+              rows="4"
+              placeholder="¿Alguna pregunta o comentario?"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-cta">Enviar Solicitud</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================== SECCIÓN BENEFICIOS ================== -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">¿Por qué TECHNet?</h2>
+        <div class="benefits-grid">
+          <div class="benefit">
+            <div class="benefit-icon">🚀</div>
+            <h3>Velocidad Garantizada</h3>
+            <p>Internet estable sin interrupciones</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon">⚡</div>
+            <h3>Instalación Rápida</h3>
+            <p>En menos de 48 horas</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit-icon">📞</div>
+            <h3>Soporte 24/7</h3>
+            <p>Asistencia inmediata</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== FOOTER ================== -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 TECHNet. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
