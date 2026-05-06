@@ -1,4 +1,4 @@
-# Proyecto Web - Módulos (Home, Planes, Cotización).
+# Proyecto Web - Módulos (Home, Planes, Cotización)
 
 Sitio web desarrollado con **HTML, CSS y JavaScript** (Frontend) con módulos de:
 
